@@ -16,7 +16,7 @@ i {
 }
 
 *{
-    font-family: lato;
+    font-family: "Lato";
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -319,3 +319,45 @@ input[type="submit"]{
     height: 100px;
 }
 
+/* Colaboradores */
+#team{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#team h2{
+    font-size: 3rem;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+#team h2 span{
+    color: var(--main-color);
+}
+
+#team .square{
+    background-color: var(--tertiary-color);
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    top: -25px;
+}
+
+.employees{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.employee-name{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
